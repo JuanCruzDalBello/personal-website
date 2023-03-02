@@ -1,0 +1,72 @@
+html{
+    scroll-behavior: smooth;
+    font-family: 'Source Code Pro', monospace;
+    scroll-padding-top: 50px;
+}
+
+body{
+    padding: 30px;
+    color: #e3e1e1;
+    background-color: #0d1117;
+    font-size: 17px;
+}
+
+a{
+    color: #e3e1e1;
+    text-decoration: none;
+}
+
+#about_section{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.subtitile{
+    font-size: 32px;
+}
+
+.photo{
+    width: 230px;
+    height: auto;
+    border-radius: 20%;
+    aspect-ratio: 1;
+}
+
+.about_container{
+    display:flex;
+    align-items: center;
+    padding-top: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar_name{
+    font-size: 20px;
+    float: left;
+    padding-left: 25px;
+}
+
+.about_text{
+    padding: 8%;
+    /* padding-right: 20%; */
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    float: right;
+    padding-right: 25px;
+    padding-bottom: 19px;
+}

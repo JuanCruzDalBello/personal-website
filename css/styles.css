@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
+html *{
+    font-family: 'Source Code Pro', monospace;
+    scroll-margin: 100px;
+}
+
+body{
+    color: #e3e1e1;
+    background-color: #171d26;
+    /* font-size: 20px; */
+    font-size: 1rem;
+}
+
+/* NAVBAR */
+.navbar{
+    width: var(--sidbar-width);
+    background: linear-gradient(#ecedf0, #ecedf0);
+    position:static !important;
+}
+
+.container{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.nav-item{
+    font-size:large;
+}
+
+/* ABOUT SECTION*/
+.card{
+    background-color: #293343;
+}
+
+#about_photo{
+    padding: 8%;
+    border-radius: 10%;
+    /*
+    width:100%;
+    height:100%;
+    */
+}
+
+/* WORK EXPERIENCE */
+
+.logo{
+    width: 6rem;
+    height: 6rem;
+    
+    /* height: auto; */
+    border-radius: 0;
+    align-self: center;
+}
+
+/*
+.company_name{
+    margin-top: 1rem;
+}
+*/
+
+.card-title{
+    margin-top: 1rem;
+}
+
+
+/* PROJECTS */
+
+/* FOOTER */
+i{
+    color: #e3e1e1;
+}
+
+.contact_section{
+    margin-right: 0;
+}
+
+/*
+#footers{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+*/
